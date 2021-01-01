@@ -1,0 +1,28 @@
+{
+  "name": "file-based-key-value-data-store",
+  "version": "1.0.0",
+  "description": "File based key value data store that supports Create, Read and Delete operations",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinSylvester/File-based-key-value-store.git"
+  },
+  "author": "Robin Sylvester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinSylvester/File-based-key-value-store/issues"
+  },
+  "homepage": "https://github.com/RobinSylvester/File-based-key-value-store#readme",
+  "dependencies": {
+    "is-empty": "^1.2.0",
+    "object-sizeof": "^1.6.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
